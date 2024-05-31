@@ -1,0 +1,74 @@
+body {
+  --font-title: "Inter", sans-serif;
+  --color-orange: #ff9900;
+  --font-paragraph: "Open Sans", sans-serif;
+  --color-paragraph: #7d7987;
+
+  font-family: var(--font-paragraph);
+  margin: 0;
+
+  #hero {
+    /* Centralizar todos os textos que estao no hero */
+    text-align: center;
+
+    /* Definir o maximo de largura dos elementos */
+    max-width: 592px;
+
+    /* Aplicar o espaçamento automatico para centralizar os elementos*/
+    margin: 0 auto 72px;
+
+    img {
+      margin-bottom: 72px;
+    }
+  }
+
+  h1 {
+    font-family: var(--font-title);
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 32px;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  span,
+  a {
+    color: var(--color-orange);
+  }
+
+  p {
+    color: var(--color-paragraph);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 72px;
+  }
+
+  /* hr {
+    border-width: 1px;
+    border-color: #eceff2;
+  } */
+
+  #line {
+    border: 1px #eceff2 solid;
+
+    margin-bottom: 8px;
+  }
+
+  /* Criara um espaço entre os links a + a */
+  #footer a + a {
+    margin-left: 28px;
+  }
+
+  #footer {
+    padding: 8px;
+  }
+
+  #balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+}
